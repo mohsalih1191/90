@@ -1,11 +1,11 @@
 # Stage 1: Build the Vite application
-FROM node:20-alpine AS builder
+FROM node:22-alpine AS builder
 
 WORKDIR /app
 
 # Install dependencies
 COPY package*.json ./
-RUN npm ci
+RUN npm install
 
 # Copy source files
 COPY . .
