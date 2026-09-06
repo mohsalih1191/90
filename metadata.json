@@ -1,0 +1,6 @@
+{
+  "name": "دوري المجتمع 90X | 90X Community League",
+  "description": "منصة دوري مجتمعية حية مع رحلة 90X، المواجهات الأسبوعية، وثلاثة أوضاع عرض للمشارك والمشرف والبث العمودي المباشر",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
